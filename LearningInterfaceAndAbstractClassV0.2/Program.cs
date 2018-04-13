@@ -10,6 +10,10 @@ namespace LearningInterfaceAndAbstractClassV0._2
     {
         static void Main(string[] args)
         {
+            Tallguy tallguy = new Tallguy() { Name = "Tomek", Height = 178 };
+            tallguy.TalkAboutYourSelf();
+            tallguy.Honk();
+            System.Console.Read();
         }
     }
 }
